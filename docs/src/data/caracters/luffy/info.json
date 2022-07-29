@@ -1,0 +1,25 @@
+{
+"name":"monkey d. luffy",
+"age":19,
+"boutry":"3.000.000.000",
+
+"crew": {
+"crewname":"straw hat crew",
+"members":6000,
+"occupation":"pirate",
+"function":"capt"
+},
+
+"haki":[
+{"conquer":3},
+{"obser":3},
+{"arma":3}
+],
+
+"habilit":[
+{"akuma no mi":"hito hito no mi"},
+{"gears": [2,3,4,5]}
+
+]
+
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script defer src="./src/js/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./src/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+    <main>
+
+
+<h2>Connect in Wiki-Piece using javascript</h2>
+    <pre>
+<small class="ae"> //use to connect in wiki-piece in js</small>
+<small class="ac">const </small><small class="af">a </small>=  <small class="ad">async</small><small class="ae">(</small><small class="ac">id</small><small class="ae">)</small><small class="ae"> => </small> <small class="aa">{</small>
+  <small class="ac">const </small><small class="af">d </small> <small>=</small> <small class="ad"> await </small><small class="aa">fetch</small><small class="ae">(</small><small class="ac">`https://forti8.github.io/wiki-piece/src/data/caracters/${id}/info.json`</small><small class="ae">) 
+</small> <small class="ac"> const</small><small class="af"> b</small><small> = </small><small class="ad">await </small><small class="af">d</small><small>.</small><small class="ba">json()</small><small>;</small>
+  
+<small class="ad">return </small><small class="af">console</small><small>.</small><small class="ba">log</small><small class="ab">(</small><small class="af">b</small><small class="ab">)</small><small class="ab">;</small>
+<small class="aa">}</small>
+
+<small class="ba">a</small><small class="ab">(</small><small class="ac">'sanji'</small><small class="ab">)</small>
+
+</pre>
+<br></br>
+<h2>Response:</h2>
+<pre>
+<small class="ab">{
+  "name": "vismoke sanji",
+  "age": 21,
+  "boutry": "330.000.000",
+  "crew": {
+    "crewname": "straw hat crew",
+    "members": 6000,
+    "occupation": "pirate",
+    "function": "cooker"
+  },
+  "haki": [
+    {
+      "conquer": 0
+    },
+    {
+      "obser": 3
+    },
+    {
+      "arma": 2
+    }
+  ],
+  "habilit": [
+    {
+      "akuma no mi": "none"
+    },
+    {
+      "meele": "diable jamble"
+    }
+  ]
+}</small>
+</pre>
+    </main>
+
+    
+    
+</body>
+
+<!--Create by M. Granville -->
+</html>

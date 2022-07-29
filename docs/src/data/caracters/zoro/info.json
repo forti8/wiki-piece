@@ -1,0 +1,25 @@
+{
+    "name":"roronoa zoro",
+    "age":21,
+    "boutry":"320.000.000",
+    
+    "crew": {
+    "crewname":"straw hat crew",
+    "members":6000,
+    "occupation":"pirate",
+    "function":"swordman"
+    },
+    
+    "haki":[
+    {"conquer":2},
+    {"obser":2},
+    {"arma":3}
+    ],
+    
+    "habilit":[
+    {"akuma no mi":"none"},
+    {"sword":"triple katana"}
+    
+    ]
+    
+    }

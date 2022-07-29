@@ -1,0 +1,25 @@
+{
+    "name":"vismoke sanji",
+    "age":21,
+    "boutry":"330.000.000",
+    
+    "crew": {
+    "crewname":"straw hat crew",
+    "members":6000,
+    "occupation":"pirate",
+    "function":"cooker"
+    },
+    
+    "haki":[
+    {"conquer":0},
+    {"obser":3},
+    {"arma":2}
+    ],
+    
+    "habilit":[
+    {"akuma no mi":"none"},
+    {"meele":"diable jamble"}
+    
+    ]
+    
+    }
